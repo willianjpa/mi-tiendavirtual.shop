@@ -1,98 +1,98 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Responder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tienda Virtual</title>
     <style>
         body {
-            background-color: #FFFFFF;
-            font-family: Arial Black, sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+            font-family: Arial, sans-serif;
             margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        section {
             padding: 20px;
         }
 
-        .pergunta {
-            font-size: 12vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #000000;
-            margin-bottom: 18vw; /* Espaçamento otimizado */
+        #video-container {
             text-align: center;
+            margin: 20px auto;
         }
 
-        .botoes {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 8vw; /* Espaçamento otimizado */
-        }
-
-        .botao {
-            width: 40vw; /* Proporcionalmente igual em todos os dispositivos */
-            height: 12vw; /* Proporcionalmente igual em todos os dispositivos */
-            border: none;
-            font-size: 9vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #FFFFFF;
-            cursor: pointer;
-        }
-
-        .botao.si {
-            background-color: #228B22;
-        }
-
-        .botao.no {
-            background-color: #FF0000;
-        }
-
-        .wmv {
-            font-size: 3vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #000000;
-            margin-top: 18vw; /* Espaçamento otimizado */
+        footer {
+            background-color: #FFFAFA;
+            color: #DDDDDD;
             text-align: center;
+            padding: 10px;
         }
 
-        .rodape {
-            margin-top: 6vw; /* Espaçamento otimizado */
-            font-size: 2vw; /* Proporcionalmente igual em todos os dispositivos */
-            color: #808080;
-            text-align: center;
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        /* Estilos para dispositivos móveis */
+        @media (max-width: 768px) {
+            header, nav, section, #video-container, footer {
+                padding: 10px;
+            }
+            
+            button {
+                display: block;
+                width: 80%;
+                margin: 20px auto;
+            }
         }
     </style>
 </head>
-
 <body>
-    <div class="pergunta">¿Piensas ver el siguiente video hasta el final?</div>
-    <div class="botoes">
-        <a href="https://reconstruccion.shop/2">
-            <button class="botao si">SÍ</button>
-        </a>
-        <a href="https://reconstruccion.shop/2">
-            <button class="botao no">NO</button>
-        </a>
+    <header>
+        <h1>Mi Tienda Virtual</h1>
+    </header>
+    <nav>
+        <a href="https://ofertaja.shop/">Inicio</a>
+        <a href="https://ofertaja.shop/">Productos</a>
+        <a href="https://youcenters.com/pages/sobre-a-youcenters">Sobre Nosotros</a>
+        <a href="https://youcenters.com/pages/contato">Contacto</a>
+    </nav>
+    <section>
+        <h2>Productos Destacados</h2>
+        <!-- Coloque aquí a lista de productos destacados -->
+    </section>
+    <div id="video-container">
+        <h2>ÚLTIMA PREGUNTA. ¿ERES MAYOR DE 30 AÑOS?</h2>
+        <p style="text-align: center;"></p>
+        <button style="background-color: green; display: block; width: 80%; margin: 20px auto;"><a href="https://meuip.com.br/" style="color: white; text-decoration: none;">SÍ</a></button>
+        <button style="background-color: red; display: block; width: 80%; margin: 20px auto;"><a href="https://meuip.com.br/" style="color: white; text-decoration: none;">NO</a></button>
     </div>
-     <p style="text-align: center; font-color: gray;">CNPJ: 51.589.569/0001-75 - Cl. 20 #82 - 52, Fontibón, Bogotá, Cundinamarca, Colômbia</p>
-  </div><script type="text/javascript" src="script.js"></script>
-    <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-gray mt-4"><a href="termos.html" class="text-gray">Terminos de uso</a> | <a href="privacidade.html" class="text-gray">Política de Privacidad</a></div>
-          </div>
-        </div>
-      </div>
-    </header>
-  <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-gray mt-4"><a href="termos.html" class="text-gray">Sobre Nosotros</a> | <a href="privacidade.html" class="text-gray">Politica de Reembolso</a></div>
-          </div>
-        </div>
-      </div>
-    </header>
-  <!-- Termos de Uso e Política de Privacidade -->
-            <div class="text-gray mt-4"><a href="termos.html" class="text-gray">Hable con Nosotros</a> | <a href="privacidade.html" class="text-gray">Politica de Envios</a></div>
-          </div>
-        </div>
-      </div>
+    <section>
+        <h2>Más Productos</h2>
+        <!-- Coloque aquí más produtos para mostrar -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Mi Tienda Virtual. Todos los derechos reservados.</p>
+        <p><a href="https://reconstrucciondelcabello.shop/privacidade.html">Política de Privacidad</a> | <a href="https://reconstrucciondelcabello.shop/termos.html">Términos y Condiciones</a> | <a href="https://youcenters.com/pages/politica-de-troca-e-devolucao">Política de Devoluciones</a> | <a href="https://youcenters.com/pages/contato">Contáctanos</a></p>
+    </footer>
 </body>
-
 </html>
